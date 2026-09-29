@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name of the Page</title>
+</head>
+<body>
+    <!-- Headings -->
+    <h1>This is a Heading 1</h1>
+    <h2>This is a Heading 2</h2>
+    <h3>This is a Heading 3</h3>
+    <h4>This is a Heading 4</h4>
+    <h5>This is a Heading 5</h5>
+    <h6>This is a Heading 6</h6>
+    <!-- Paragraph -->
+    <p>
+        This is a paragraph.
+        It can contain multiple sentences.
+        This is the second sentence.
+    </p>
+    <!-- Bold -->
+    <b>Bold Text</b>
+    <!-- Italic -->
+    <i>Italic Text</i>
+    <!-- Underline -->
+    <u>Underline Text</u>
+    <!-- Anchor -->
+    <a href="https://www.example.com">Link Text</a> <!-- Open the link in same tab -->
+    <a href="https://google.com" target="_blank">Google</a> <!-- target="_blank", to opens the link in a new tab -->
+    <a href="nextPage.html">Next Page</a><!-- Open another html page in same tab-->
+    
+    <!-- Lists -->
+    <h1>Unordered List</h1>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <h1>Ordered List</h1>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- Forms -->
+    <h1>Form Example</h1>
+    <form> <!-- action is the URL to which the form data is sent -->
+        <div>
+            <label>Name:</label>
+            <input type="text", placeholder="Enter your name"/>
+        </div>
+        <div>
+            <label>Email:</label>
+            <input type="email", placeholder="Enter your email"/> <!-- type="email" is used to validate the email address -->
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password", placeholder="Enter your password"/>
+        </div>
+        <div>
+            <label>Number:</label>
+            <input type="number", placeholder="Enter your number"/>
+        </div>
+        <div>
+            <label>Date:</label>
+            <input type="date", placeholder="Enter your date"/>
+        </div>
+        <div>
+            <label>Message:</label>
+            <textarea placeholder="Enter your message"></textarea>
+        </div>
+        <div>
+            <label>Choices:</label>
+            <select>
+                <option value="option1">Option 1</option> <!-- value is the value that will be sent to the server when the form is submitted -->
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button> <!-- type="submit" is used to submit the form -->
+
+    </form>
+
+    <!-- Images -->
+    <h1>Image Example</h1>
+    <h3>Image from external source</h3>
+    <img src="https://i.ytimg.com/an_webp/0OZKzqLD0Z0/mqdefault_6s.webp?du=3000&sqp=CLKF8NUG&rs=AOn4CLBKV1-h1jr3mjh5Ebp4m1NgQu1lZg"
+         alt="Image from external source" width="300" height="200"/> <!-- alt is used to describe the image, width and height are used to set the size of the image -->
+    <h3>Image from local source</h3>
+    <img src="assests/image/localimage.jpg"
+            alt="Image from local source" width="300" height="200"/>  
+
+    <!-- Span-->
+     <!-- Span is an inline element, used to group inline-elements in a document. It provides no visual change by itself. It can be used to apply styles to a part of the text. -->
+    <h1>Span Example</h1>
+    <p>This is a <span style="color: red;">red</span> text.</p>
+    <p>This is a <span style="font-weight: bold;">bold</span>.</p>
+
+</body>
+</html>
+<!-- Block elements: 
+                    Start on a new line
+                    Take up the full width of the container 
+                    Eg: <p>, <h1>, <div> 
+-->
+<!-- Inline elements: 
+                    Do not start on a new line
+                    Only take up as much width as necessary
+                    Eg: <a>, <b>, <img>, <span>, <button>
+-->
