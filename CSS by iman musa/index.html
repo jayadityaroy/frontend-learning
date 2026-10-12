@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /* Internal CSS */
+        /* This CSS rule applies to all <p> elements in the document */
+        p {
+            color: blue;
+            font-size: 18px;
+        }
+        /* This CSS rule applies to <p> elements with the class "internal-css-rule" */
+        p.internal-css-rule {
+            color:darkgoldenrod;
+            font-size: 18px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css"> External CSS
+</head>
+<body>
+    <h1>All 3 Methods for adding CSS to HTML: </h1>
+    <h2>1. Inline CSS</h2>
+    <p style="color: red; font-size: 20px;">This is an example of inline CSS. The text is red and has a font size of 20px.</p>
+    <h2>2. Internal CSS</h2>
+    <p class="internal-css-rule">This is an example of internal CSS. The text is blue and has a font size of 18px.</p>
+    <h2>3. External CSS (Recommended)</h2>
+    <p class="external-css-rule">This is an example of external CSS. The text is green and has a font size of 16px.</p>
+</body>
+</html>
+<!--
+3 mathods for adding CSS to HTML:
+1. Inline CSS: Adding CSS directly to the HTML element using the style attribute.
+2. Internal CSS: Adding CSS within a <style> tag in the <head> section of the HTML document.
+3. External CSS (Recommended): Linking an external CSS file to the HTML document using the <link> tag in the <head> section.
+-->
+<!--
+Inline CSS: applies directly to one element and has higher priority.
+Internal CSS with p: applies to every <p> element.
+More specific selectors can override general selectors.
+-->
+<!--Priority: Inline CSS > later stylesheet rule > earlier stylesheet rule-->
+<!--Using class selectors to apply specific styles to elements with certain classes. -->
+
+<!--CSS properties: -->
+<!---------------------->
+<!--color: for setting the text color of an element. -->
+<!--background-color: for setting the background color of an element. -->
+
+<!--Different ways to insert colours: -->
+<!--1. Using color names (e.g., "red", "blue") -->
+<!--2. Using hexadecimal values (e.g., "#FF0000", "#0000FF") -->
+<!--3. Using RGB values (e.g., "rgb(255, 0, 0)", "rgb(0, 0, 255)") -->
+<!--"rgba" values (e.g., "rgba(255, 0, 0, 0.5)", a = alpha, represents transparency) -->
+<!--4. Using HSL values (e.g., "hsl(0, 100%, 50%)", "hsl(240, 100%, 50%)") -->
+
+<!--Size: -->
+<!--width: for setting the width of an element. -->
+<!--height: for setting the height of an element. -->
+<!--Don't hardcoded values. Use relative units like percentages or ems. -->
+<!--Example: width: 50% (covers 50% of the parent's width); height: 50%(covers 50% of the parent's height); -->
+<!-- vw (viewport width) and vh (viewport height) for relative sizing based on the browser window. -->
+
+<!--Font: -->

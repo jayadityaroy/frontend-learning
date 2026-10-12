@@ -1,0 +1,11 @@
+
+/* This CSS rule applies to <p> elements with the class "external-css-rule" */
+p.external-css-rule{
+    color:chartreuse;
+    font-size: 16px;
+}
+/* This CSS rule applies to all <p> elements */
+p{
+    color:darkolivegreen;
+    font-size: 16px;
+}
